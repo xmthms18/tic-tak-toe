@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <html lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Tic Tac Toe</title>
+
+  <link rel="stylesheet" href="style.css">
+ 
+
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+  
+  
+</head>
+
+<body>
+  <header> Tik Tac Toe</header>
+
+  <h1>Player Ones Turn</h1>
+
+  <section id="board">
+
+    <div id="1" class ="box right-border bottom-border"></div>
+    <div id="2" class ="box right-border bottom-border"></div>
+    <div id="3" class ="box bottom-border"></div>
+
+    <div id="4" class ="box right-border bottom-border"></div>
+    <div id="5" class ="box right-border bottom-border"></div>
+    <div id="6" class ="box bottom-border"></div>
+
+    <div id="7" class ="box right-border "></div>
+    <div id="8" class ="box right-border "></div>
+    <div id="9" class ="box"></div>
+
+    
+    <div id = 'win' class = 'win'></div>
+    
+  </section>
+
+  <button id = "restart"> RESTART </button>
+
+  <section id = "game-status">
+    <div id = "player1"> P1 Wins </div>
+    <div id = "player2"> P2 Wins </div>
+    <div id = "tie"> Ties </div>
+
+    <div id = "p1-num" class = "score">0</div>
+    <div id = "p2-num" class = "score">0</div>
+    <div id = "tie-num" class = "score">0</div>
+  </section>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
